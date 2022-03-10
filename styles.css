@@ -14,3 +14,91 @@ html, body {
     height: 100%;
 }
 
+/*******************************header************************/
+header{
+    background-color: pink;
+    display: flex;
+    padding: 10px;
+}
+
+
+small {
+    display: block;
+    font-size: 0.8rem;
+}
+
+
+.logo{
+
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+/*******************************menu************************/
+.menu {
+    width: 200px;
+    background-color: gray;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+    border: 1px solid;
+    white-space: nowrap;
+}
+
+nav span {
+
+    padding-right: 0.5rem;
+
+}
+
+article h2 {
+    text-align: center;
+}
+
+.img-center{
+
+    text-align: center;
+
+} 
+
+article {
+
+    padding: 10px;
+}
+
+
+main {
+    display: flex;
+
+}
+/*****************************footer************************/
+
+
+footer {
+
+    background-color: purple;
+    display: flex;
+}
+
+footer a{
+
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+footer div {
+
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+
+}
+
